@@ -1,0 +1,25 @@
+GIT HUB 
+
+Inicializar o repositório Git (se ainda não fez):
+
+Bash
+git init
+Adicionar todos os arquivos novos para o rastreamento:
+
+Bash
+git add .
+Salvar (comitar) as alterações com uma mensagem:
+
+Bash
+git commit -m "Commit dos 4 passos do exercicio de AED1"
+Conectar ao repositório remoto do GitHub (se já criou o repositório lá):
+
+Bash
+git remote add origin URL_DO_SEU_REPOSITORIO_NO_GITHUB
+(Substitua URL_DO_SEU_REPOSITORIO_NO_GITHUB pelo link HTTPS do seu repositório, ex: [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git))
+
+Enviar os arquivos para o GitHub:
+
+Bash
+git branch -M main
+git push -u origin main
